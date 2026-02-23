@@ -13,6 +13,7 @@
     background-color: transparent;
     padding: 0;
     position: static;
+    margin-bottom: 24px;
 }
 
 .card header p {
