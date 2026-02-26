@@ -1,0 +1,49 @@
+.categories .section-title{
+    width: 312px;
+    margin: 0 auto;
+}
+.categories img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0 24px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .categories .section-title{
+        width: 100%;
+    }
+    .categories {
+        padding: 32px 60px;
+    }
+
+    .categories ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .categories li {
+        width: 45%;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .categories {
+        padding: 32px 120px;
+    }
+
+    .categories li {
+        width: 20%;
+    }
+}
