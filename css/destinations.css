@@ -25,3 +25,25 @@
 .bg-osaka {
     background-image: url(../img/osaka-mobile.jpg);
 }
+
+.destinations .item header h4 {
+    margin: 24px 0 16px 0;
+    font-size: 28px;
+}
+
+.destinations .item p {
+    margin: 0 0 24px 0;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--text-primary-color);
+}
+
+.destinations .item .button {
+    display: inline-block;
+    width: 312px;
+}
+
+.destinations .item footer {
+    text-align: center;
+    padding-bottom: 32px;
+}
