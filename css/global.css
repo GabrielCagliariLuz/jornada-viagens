@@ -71,7 +71,7 @@ section.hero {
 }
 
 .content-title {
-  font-size: 20x;
+  font-size: 28px;
   font-weight: var(--title-weight);
 }
 
@@ -103,7 +103,7 @@ section.hero {
   .section-title {
     width: 100%;
   }
-  
+
   .section-title h2 {
     font-size: 32px;
   }
