@@ -28,14 +28,10 @@
 
 .destinations .item header h4 {
     margin: 24px 0 16px 0;
-    font-size: 28px;
 }
 
 .destinations .item p {
     margin: 0 0 24px 0;
-    font-size: 20px;
-    line-height: 1.5;
-    color: var(--text-primary-color);
 }
 
 .destinations .item .button {
