@@ -70,6 +70,17 @@ section.hero {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 .button {
   display: inline-block;
   min-width: 280px;
@@ -92,7 +103,7 @@ section.hero {
   .section-title {
     width: 100%;
   }
-  
+
   .section-title h2 {
     font-size: 32px;
   }
