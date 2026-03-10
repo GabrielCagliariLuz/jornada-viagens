@@ -1,0 +1,26 @@
+.main-footer {
+    background-color: var(--background-tertiary-color);
+    color: var(--text-secundary-color);
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.pre-footer {
+    width: 100%;
+    margin: 0;
+}
+.pre-footer .footer-img{
+    background-image: url(../img/hero-footer-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.footer-logo img{
+    width: 162px;
+    height: 40px;
+}
