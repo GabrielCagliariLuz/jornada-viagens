@@ -41,7 +41,7 @@
 
 .main-footer .footer-text p{
    font-size: 16px;
-   line-height: 24px;
+   line-height: 28px;
    margin: 0;
 }
 
@@ -60,4 +60,20 @@
 .main-footer .social-icons img {
     width: 32px;
     height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .pre-footer .footer-img{
+        background-image: url(../img/hero-footer-tablet.jpg);
+    }
+
+    .main-footer .footer-text {
+        padding: 0 88px;
+        text-align: left;
+    }
+
+    .main-footer .footer-text p {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
