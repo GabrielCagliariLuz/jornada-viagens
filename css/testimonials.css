@@ -1,5 +1,6 @@
 .testimonial {
     margin-top: 88px;
+    margin-bottom: 88px;
 }
 
 .testimonial article header {
@@ -28,7 +29,7 @@
     margin-top: 8px;
 }
 
-.testimonial-container footer .profile-content h4 {
+.testimonial-container footer .profile-content h3 {
     font-size: 20px;
     line-height: 32px;
     font-weight: var(--title-weight);
@@ -46,7 +47,7 @@
     height: 86px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
     .testimonial-container {
         flex-direction: row;
     }

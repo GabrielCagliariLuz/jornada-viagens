@@ -1,0 +1,110 @@
+.main-footer {
+    background-color: var(--background-tertiary-color);
+    color: var(--text-secundary-color);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-footer .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pre-footer {
+    width: 100%;
+    margin: 0;
+}
+.pre-footer .footer-img{
+    background-image: url(../img/hero-footer-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.main-footer .footer-logo {
+    margin-bottom: 16px;
+}
+
+.main-footer .footer-text {
+    margin-bottom: 32px;
+}
+
+.footer-logo img{
+    width: 162px;
+    height: 40px;
+}
+
+.main-footer .footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.main-footer .footer-text p{
+   font-size: 16px;
+   line-height: 28px;
+   margin: 0;
+}
+
+.main-footer .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.main-footer .social-icons {
+    display: flex;
+    gap: 8px;
+}
+
+.main-footer .social-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .pre-footer .footer-img{
+        background-image: url(../img/hero-footer-tablet.jpg);
+    }
+
+    .main-footer .footer-text {
+        padding: 0 88px;
+        text-align: left;
+    }
+
+    .main-footer .footer-text p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pre-footer .footer-img {
+        background-image: url(../img/hero-footer-desktop.jpg);
+    }
+
+    .main-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 64px 120px;
+    }
+
+    .main-footer .footer-info {
+        align-items: flex-start;
+    }
+    .main-footer .footer-text {
+        padding: 0;
+        text-align: left;
+    }
+
+    .main-footer .footer-social {
+        align-items: flex-end;
+    }
+}
