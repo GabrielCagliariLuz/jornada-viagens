@@ -97,6 +97,11 @@ nav {
     .navegation-menu a:hover {
         color: var(--primary-color);
     }
+
+    .header-japao .navegation-menu a:hover {
+        color: var(--text-secundary-color);
+        text-decoration: underline;
+    }
 }
 
 @media screen and (min-width: 1920px) {
