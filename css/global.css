@@ -94,6 +94,10 @@ section.hero {
   line-height: 64px;
 }
 
+.item footer {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 648px;
