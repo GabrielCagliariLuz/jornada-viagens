@@ -55,6 +55,22 @@
         padding: 88px 68px;
         font-size: 32px;
     }
+
+    .hero-japao{
+        height: 620px;
+        background-image: url(../img/japao/monte-fuji-tablet.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 24px;
+    }
+
+    .hero-japao p {
+        font-size: 32px;
+        line-height: 48px;
+        max-width: 579px;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -67,6 +83,12 @@
       .hero h2 {
         padding: 88px 120px;
         font-size: 32px;
+    }
+
+    .hero-japao {
+        background-image: url(../img/japao/monte-fuji-desktop.jpg);
+        align-items: self-start;
+        padding: 0 120px;
     }
 }
 
