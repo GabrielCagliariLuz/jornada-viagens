@@ -81,6 +81,7 @@
     .destinations .item .button {
         display: block;
         width: 280px;
+        margin: 0;
     }
 }
 
