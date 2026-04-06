@@ -21,6 +21,10 @@
   --menu-text-weight: 500;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body,
 img,
 h1,
@@ -34,7 +38,6 @@ textarea,
 button {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -92,6 +95,10 @@ section.hero {
   border-radius: 16px;
   text-decoration: none;
   line-height: 64px;
+}
+
+.item footer {
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {

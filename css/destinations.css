@@ -51,6 +51,10 @@
 }
 
 @media screen and (min-width: 768px){
+    .destinations {
+        padding-top: 88px;
+    }
+
     .destinations-items {
         padding: 0;
         display: flex;
@@ -77,10 +81,15 @@
     .destinations .item .button {
         display: block;
         width: 280px;
+        margin: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    .destinations {
+        padding-top: 102px;
+    }
+
     .destinations-items {
         padding: 0;
         display: flex;
